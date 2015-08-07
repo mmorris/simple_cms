@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -33,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'capistrano-rails', group: :development
 gem 'capistrano-passenger', group: :development
 gem 'capistrano-ext', group: :development
-gem 'capistrano-rbenv', group: :development
+gem 'capistrano-rbenv', '~> 2.0', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
