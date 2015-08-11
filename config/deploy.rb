@@ -3,6 +3,7 @@ lock '3.4.0'
 
 # Is this a hack?
 set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
+set :rbenv_ruby, '2.2.2-p95'
 
 set :application, 'simple_cms'
 set :repo_url, 'git@github.com:mmorris/simple_cms.git'
