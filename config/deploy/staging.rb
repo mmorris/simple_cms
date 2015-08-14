@@ -61,7 +61,7 @@ server '104.236.152.142', roles: %w{web app db}
 #   }
 
 server '104.236.152.142',
-  user: 'wirki',
+  user: 'wirki4',
   roles: %w{web app db},
   ssh_options: {
     keys: %w(/home/mmorris/.ssh/id_rsa),

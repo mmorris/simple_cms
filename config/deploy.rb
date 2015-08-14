@@ -13,7 +13,7 @@ set :repo_url, 'git@github.com:mmorris/simple_cms.git'
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, '/var/www/my_app_name'
-set :deploy_to, '/home/wirki/simple_cms'
+set :deploy_to, '/home/wirki4/app/simple_cms'
 
 set :stages, ["staging", "production"]
 set :default_stage, "staging"
