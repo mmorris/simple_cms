@@ -8,7 +8,7 @@
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
 #server '104.236.152.142', roles: %w{web app db}
-#server 'wirkidev2.matt.ph', roles: %w{web app db}
+server 'wirkidev2.matt.ph', roles: %w{web app db}
 
 # role-based syntax
 # ==================
@@ -61,7 +61,7 @@
 #     # password: 'please use keys'
 #   }
 
-server 'wirkidev2.matt.ph'
+server 'wirkidev2.matt.ph',
   user: 'wirki',
   roles: %w{web app db},
   ssh_options: {
