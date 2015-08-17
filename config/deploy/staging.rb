@@ -7,7 +7,8 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-server '104.236.152.142', roles: %w{web app db}
+#server '104.236.152.142', roles: %w{web app db}
+#server 'wirkidev2.matt.ph', roles: %w{web app db}
 
 # role-based syntax
 # ==================
@@ -60,8 +61,8 @@ server '104.236.152.142', roles: %w{web app db}
 #     # password: 'please use keys'
 #   }
 
-server '104.236.152.142',
-  user: 'wirki4',
+server 'wirkidev2.matt.ph'
+  user: 'wirki',
   roles: %w{web app db},
   ssh_options: {
     keys: %w(/home/mmorris/.ssh/id_rsa),
